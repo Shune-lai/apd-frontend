@@ -1,0 +1,28 @@
+.na{
+    background-color:#ADE0E7;
+  }
+  img {
+  height: 230px;
+   }
+   .body {
+      background: url('g1.jpg') no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      -o-background-size: cover;
+    }
+    .log{
+      background-color:rgb(248, 248, 248);
+    }
+    .lb{
+        font-weight: bold;
+    }
+    .rb{
+        margin-left: 15px;
+    }
+    .do{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom:30px;
+    }
