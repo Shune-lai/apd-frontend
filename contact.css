@@ -1,0 +1,83 @@
+.contact {
+    background: #F2EDE6;
+}
+
+.main-div {
+    overflow: hidden;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-top: 95px;
+}
+
+.left h2 {
+    margin-bottom: 40px;
+}
+
+.left .form-group {
+    margin-bottom: 20px;
+}
+
+.form-group .form-control {
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.left button {
+    margin-top: 25px;
+    border-radius: 30px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.right .group p:first-child {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.right .group p:last-child {
+    font-size: 18px;
+
+}
+
+.cus-form-group {
+    border: 1px solid black;
+    border-bottom: none;
+    padding: 50px 40px 100px 40px;
+}
+
+@media (max-width: 768px) {
+    .main-div {
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    .title {
+        margin-top: 35px;
+        margin-left: 35px;
+    }
+
+    .cus-form-group {
+        border: none;
+    }
+
+    .right {
+flex-direction: row;
+        margin-top: 60px;
+        border: 1px solid black;
+        padding-block: 30px;
+    }
+
+}
